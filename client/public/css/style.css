@@ -1,0 +1,304 @@
+/* General */
+/* ==================================================== */
+html, body, #root, [data-reactroot] {
+	height: 94vh;
+	margin: 0px;
+	font-family: Avenir-Light, Avenir Next, sans-serif;
+}
+body, a {
+	color: white;
+}
+
+body {
+	background: linear-gradient(#cfcfcf, #a8a8a8) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Navbar */
+/* ==================================================== */
+nav {
+	background: #373334;
+	height: 6vh;
+	font-size: 20px;
+	padding: 0 0 0 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav a {
+	color: rgb(216, 216, 216);
+	font-size: 26px;
+}
+
+nav img {
+	max-height: 100%;
+	padding-bottom: 5px;
+}
+
+nav .btn {
+	background: #cb2026;
+	font-size: 12px;
+}
+
+.navbar-brand a {
+	color: #eeeeee;
+}
+
+/* Sidebar */
+/* ==================================================== */
+#sidebar-wrapper {
+	/* background: linear-gradient(#211d1e, #cb2026); */
+	background: white;
+	height: 94vh;
+	padding: 5px 0 0 0;
+	font-size: 22px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-delay: .3s;
+	
+	background: -webkit-linear-gradient(225deg, #cb2026, #9b1c23);
+	color:white;
+
+	/* -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	background: -webkit-linear-gradient(#cb2026, #ae1f24); */
+	
+}
+
+.separator {
+	height: 1px;
+	width: 100%;
+	margin: 5px 0;
+	background: rgb(219, 219, 219);
+	margin: 0 10px 0 0;
+}
+
+.sidebarBox {
+	/* color: white; */
+	margin: 12px 0 0 0;
+    animation-delay: .4s;
+}
+
+#activeUsersBox {
+    animation-delay: .8s;
+}
+
+#totalUsersBox {
+    animation-delay: 1s;
+}
+
+#finalizedProjectsBox {
+    animation-delay: 1.2s;
+}
+
+#activeProjectsBox {
+    animation-delay: 1.4s;
+}
+
+#activeUsersGraph, 
+#totalUsersGraph, 
+#finalizedProjectsGraph, 
+#activeProjectsGraph {
+	margin-right: 20px;
+}
+
+.sidebarTitle {
+	font-size: 20px;
+	display: inline;
+}
+
+.sidebarNumber {
+	font-size: 28px;
+	margin: -8px 20px 0 0;
+	/* color: rgb(255, 255, 255); */
+	display: inline;
+	float: right;
+}
+
+.graph {
+	width: 80%;
+	height: 50px;
+	background: rgba(244, 245, 245, 1);
+	margin: -10px 0 10px 0;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Content */
+/* ==================================================== */
+#content-wrapper {
+	height: 94vh;
+}
+
+/* Content Boxes */
+/* ==================================================== */
+.contentRow {
+	height: 50%;
+}
+
+.loginBoxContent {
+	background: #373334;
+	/* margin: 10px auto; */
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	border-radius: 2px;
+	margin: auto;
+	display: flex;
+}
+
+.boxContent {
+	background: #373334;
+	/* margin: 10px auto; */
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size: 14px;
+	
+    /* border-style: solid;
+	border-width: 1px; 
+	border-color: #9b1c23;
+	border-top-style: none;
+    border-right-style: none; */
+}
+
+.boxContent h3 {
+	color: white;
+	font-size: 14px;
+}
+
+#locationBox {
+	/* background: orange; */
+	height: 100%;
+	padding:10px 0 0 10px ;
+    animation-delay: 1.6s;
+}
+
+#locationContent {
+	/* background: lightgreen; */
+	width: 100%;
+	height: 92%;
+}
+
+#demographicsBox {
+	/* background: blueviolet; */
+	height: 100%;
+	padding:10px 5px 10px 10px;
+    animation-delay: 2s;
+}
+
+#schoolsBox {
+	/* background: blueviolet; */
+	height: 100%;
+	padding:10px 0 10px 5px;
+    animation-delay: 2.4s;
+}
+
+#demographicsContent {
+	/* background: rgb(253, 126, 126); */
+	height: 92%;
+}
+
+#schoolRankings {
+	/* background: rgb(253, 126, 126); */
+	height: 92%;
+	color: white;
+	padding-top: 5px;
+}
+
+#schoolRankings ol {
+	width: 100%;
+}
+
+
+#schoolRankings ol {
+	background: -webkit-linear-gradient(white, #fcb0b8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#schoolRankings h3 {
+	display: inline-block;
+	color: #fce28c;
+	margin-left: 15px;
+}
+
+#schoolRankings h4 {
+	display: inline-block;
+	font-size: 14px;
+	float: right;
+	margin-right: 20px;
+	color: #fce28c;
+}
+
+#schoolRankings ol li a {
+	float: right !important;
+	margin-right: 20px;
+}
+
+
+/* Location Map */
+/* ==================================================== */
+#map {
+	height: 100%;
+	width: 75%;
+	float: right;
+    animation-delay: 3.8s;
+}
+
+#countryRankings {
+	width: 25%;
+	margin: 10px 0 0 -10px;
+	float: left;
+	color: white;
+}
+
+#countryRankings h3 {
+	display: inline-block;
+	color: #fce28c;
+	margin-left: 15px;
+}
+
+#countryRankings h4 {
+	display: inline-block;
+	font-size: 14px;
+	float: right;
+	margin-right: 20px;
+	color: #fce28c;
+}
+
+#countryRankings ol li a {
+	float: right;
+	margin-right: 20px;
+}
+
+#countryRankings ol {
+	background: -webkit-linear-gradient(white, #fcb0b8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+/* Demographics */
+/* ==================================================== */
+#responseChart {
+	max-width: 270px;
+	max-height: 270px;
+	margin: 0 auto;
+	color: white;
+	/* margin-top: 60px; */
+	/* background: purple; */
+}
+
+
+/* Media Queries */
+/* ==================================================== */
+/* @media only screen and (max-width: 575px) {
+    #sidebar-wrapper {
+		background: lightblue ;
+    }
+} */

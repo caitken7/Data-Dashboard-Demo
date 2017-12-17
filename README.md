@@ -1,7 +1,8 @@
 # CAF-Benchmark
-A learning analytics dashboard collecting CAF's key data points from a variety of places.
+A learning analytics dashboard collecting Chicago Architecture Foundation's key data points from various sources.
 
 ![CAF.gif](./docs/CAF.gif)
+![screenshot1.png](./docs/screenshot1.png)
 
 ## Project Headline
 Chicago Architecture Foundation (CAF) Learning Analytics Dashboard
@@ -22,7 +23,3 @@ This is a real-world project with immediate implementation and use by CAF after 
 * Location of Users
 * User Schools (National and Chicago)
 * Demographic Information
-
-
-See Working Mockup:
-![working mockup](./mockups/CAF-analytics-mockup.png)

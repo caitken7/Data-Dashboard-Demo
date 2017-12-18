@@ -11,7 +11,7 @@ A learning analytics dashboard collecting Chicago Architecture Foundation's key 
 	* Overview: Current and past number of "Total Users", "Active Users", "Finalized Projects", and "Active Projects" with correlating timeline graph (Chart.js).
 	* User Location: Number of users by country, featuring a user location cluster map (React-Google-Maps).
 	* Demographics: User age featuring interactive donut chart (Chart.js).
-	* Number of users by schools (National and Chicago)
+	* Number of users by schools (National and Chicago).
 
 
 ## Team Members

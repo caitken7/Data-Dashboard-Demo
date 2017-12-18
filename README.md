@@ -25,3 +25,8 @@ CAF has a robust set of data for its various education programs from online inte
 Key users will be able to save important data queries for continued use and increased value. This tool will make it easier for stakeholders to derive insights and make data-driven decisions for future education efforts to focus on. 
 
 This is a real-world project with immediate implementation and use by CAF after the conclusion of this bootcamp. Last year CAF conducted a formal evaluation of its online data which will serve as the basis for this project. Key metrics have been identified for MVP:  
+
+* Active Users 
+* Location of Users
+* Demographic Information
+* User Schools (National and Chicago)

@@ -4,38 +4,39 @@ import Map from "./LocationBox/LocationMap";
 
 
 const countriesArr = [
-    {name: 'USA', count: '999'},
-    {name: 'China', count: '777'}, 
-    {name: 'Italy', count: '888'}, 
-    {name: 'France', count: '888'}, 
-    {name: 'Canada', count: '888'}, 
-    {name: 'Spain', count: '888'}, 
-    {name: 'UK', count: '888'}, 
-    {name: 'Aus', count: '888'}, 
-    {name: 'S. Korea', count: '888'}, 
-    {name: 'Japan', count: '888'}, 
+    {name: 'USA', count: '4952'},
+    {name: 'UK', count: '959'}, 
+    {name: 'Canada', count: '694'}, 
+    {name: 'Australia', count: '482'}, 
+    {name: 'France', count: '473'}, 
+    {name: 'China', count: '403'},  
+    {name: 'Japan', count: '307'},  
+    {name: 'Brazil', count: '298'}, 
+    {name: 'Germany', count: '187'}, 
+    {name: 'South Korea', count: '169'},
+    {name: 'Italy', count: '162'}, 
+    {name: 'South Africa', count: '85'}, 
 ]
 
 class LocationBox extends Component {
 
     state = {
-		countries: [],
-        subCount: []
+		countries: countriesArr
     };
 
-     componentDidMount() {
-        this.loadLocation();
+    //  componentDidMount() {
+    //     this.loadLocation();
 
-    }
+    // }
 
-    loadLocation = () => {
-        API.getLocation()
-            .then(res => {
-            console.log(res.data)
-            this.setState({ countries: res.data || [] })
-            })
-            .catch(err => console.log(err));
-    };
+    // loadLocation = () => {
+    //     API.getLocation()
+    //         .then(res => {
+    //         console.log(res.data)
+    //         this.setState({ countries: res.data || [] })
+    //         })
+    //         .catch(err => console.log(err));
+    // };
 
 
 
@@ -43,7 +44,7 @@ class LocationBox extends Component {
         return (
             this.state.countries.map(function(countries, i ){
                 return (
-                    <li key= {i}>{countries.field_address_location_country_code} <a>{countries['subCount']}</a></li>
+                    <li key= {i}>{countries.name} <a>{countries.count}</a></li>
                 )
             })
         )
@@ -58,7 +59,7 @@ class LocationBox extends Component {
                     <h3>USER LOCATIONS</h3>
                     <div id="locationContent">
                         <div id="countryRankings">
-                            <h3>Country</h3> <h4>User Count</h4>
+                            <h3>Location</h3> <h4>User Count</h4>
                             <ol>
                                 {this.renderLocation()}
                             </ol>

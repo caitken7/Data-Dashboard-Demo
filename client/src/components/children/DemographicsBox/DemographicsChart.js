@@ -72,15 +72,20 @@ class DemographicsChart extends Component {
 
     async loadAgeGroups(){
        
-        let oneData = await API.getAgeGroupOne()
-        let twoData = await API.getAgeGroupTwo()
-        let threeData = await API.getAgeGroupThree()
-        let fourData = await API.getAgeGroupFour()
+        // let oneData = await API.getAgeGroupOne()
+        // let twoData = await API.getAgeGroupTwo()
+        // let threeData = await API.getAgeGroupThree()
+        // let fourData = await API.getAgeGroupFour()
 
-        let one = oneData.data[0].subCount
-        let two = twoData.data[0].subCount
-        let three = threeData.data[0].subCount
-        let four = fourData.data[0].subCount
+        // let one = oneData.data[0].subCount
+        // let two = twoData.data[0].subCount
+        // let three = threeData.data[0].subCount
+        // let four = fourData.data[0].subCount
+
+        let one = 861
+        let two = 1376
+        let three = 3612
+        let four = 3258
 
         this.setState({
             data: {

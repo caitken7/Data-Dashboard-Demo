@@ -74,7 +74,7 @@ class SideBar extends Component {
 
 					<div className="sidebarBox animated slideInLeft" id="activeUsersBox">
 						<p className="sidebarTitle">Active Users</p>
-						<p className="sidebarNumber">{this.state.activeUsers}</p>
+						<p className="sidebarNumber">2003</p>
 						<ActiveUsersGraph />
 					</div>
 
@@ -82,7 +82,7 @@ class SideBar extends Component {
 
 					<div className="sidebarBox animated slideInLeft" id="totalUsersBox">
 						<p className="sidebarTitle">Total Users</p>
-						<p className="sidebarNumber">{this.state.totalUsers}</p>
+						<p className="sidebarNumber">9107</p>
 						<TotalUsersGraph />
 					</div>
 
@@ -90,7 +90,7 @@ class SideBar extends Component {
 
 					<div className="sidebarBox animated slideInLeft" id="finalizedProjectsBox">
 						<p className="sidebarTitle">Finalized Projects</p>
-						<p className="sidebarNumber">{this.state.submissions}</p>
+						<p className="sidebarNumber">18</p>
 						<FinalizedProjectsGraph />
 					</div>
 
@@ -98,7 +98,7 @@ class SideBar extends Component {
 
 					<div className="sidebarBox animated slideInLeft" id="activeProjectsBox">
 						<p className="sidebarTitle">Active Projects</p>
-						<p className="sidebarNumber">{this.state.dailySubmissions}</p>
+						<p className="sidebarNumber">141</p>
 						<ActiveProjectsGraph />
 					</div>
 

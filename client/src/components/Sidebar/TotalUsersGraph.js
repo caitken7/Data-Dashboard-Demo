@@ -15,7 +15,7 @@ class TotalUsersGraph extends Component  {
             label: "My First dataset",
             backgroundColor: 'rgb(203, 32, 38)',
             data: [
-                8300, 8500, 8700, 9000, 9100
+                8300, 8500, 8700, 9000, 9107
             ],
             fill: false
 

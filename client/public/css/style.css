@@ -216,9 +216,9 @@ nav .btn {
 
 
 #schoolRankings ol {
-	background: -webkit-linear-gradient(white, #fcb0b8);
+	/* background: -webkit-linear-gradient(white, #fcb0b8);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
 }
 
 #schoolRankings h3 {
@@ -277,9 +277,9 @@ nav .btn {
 }
 
 #countryRankings ol {
-	background: -webkit-linear-gradient(white, #fcb0b8);
+	/* background: -webkit-linear-gradient(white, #fcb0b8);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
 }
 
 

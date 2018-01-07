@@ -1,8 +1,28 @@
 # Chicago Architecture Foundation (CAF) Learning Analytics Dashboard
 A learning analytics dashboard collecting Chicago Architecture Foundation's key data points from various sources.
 
+On load animations (Using Animate.css):
+
 ![CAF.gif](./docs/CAF.gif)
+
+Screenshot 1:
+
 ![screenshot1.png](./docs/screenshot1.png)
+
+Overview Sidebar (Using Chart.js):
+
+![screenshot2.png](./docs/screenshot2.png)
+
+User Location (Using react-google-maps cluster map):
+
+![screenshot3.png](./docs/screenshot3.png)
+
+Demographics By Age (Using Chart.js):
+
+![screenshot4.png](./docs/screenshot4.png)
+
+User Count By School:
+![screenshot5.png](./docs/screenshot5.png)
 
 ## Features
 * CAF Dashboard reads user information from a MySQL database.

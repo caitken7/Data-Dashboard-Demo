@@ -22,6 +22,7 @@ Demographics By Age (Using Chart.js):
 ![screenshot4.png](./docs/screenshot4.png)
 
 User Count By School:
+
 ![screenshot5.png](./docs/screenshot5.png)
 
 ## Features
